@@ -1,0 +1,108 @@
+.header-component .girl-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.header-component .college-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.header-component {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  background-color: rgb(247, 247, 247);
+}
+#header-h5 {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* ====left-navbar==== */
+.left-nav-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.nav-home p {
+  margin: 0;
+}
+.nav-home {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  background-color: rgb(234, 234, 234);
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.left-navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90%;
+  top: 70px;
+  padding: 20px;
+  border-right: 1px solid rgb(215, 215, 215);
+}
+.left-nav-logo img {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.left-nav-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid rgb(199, 199, 199);
+  padding-bottom: 10px;
+}
+.left-nav-heading {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.left-nav-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav-sun-img {
+  background-color: rgb(234, 234, 234);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.nav-sun-img img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+.left-nav-heading h5 {
+  font-weight: 600;
+}
+
+/* ===navbar======= */
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-content img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+/* .top-navbar {
+  gap: 70%;
+} */
